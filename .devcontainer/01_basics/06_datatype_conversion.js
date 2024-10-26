@@ -4,46 +4,52 @@ let score = "33";
 let converted = Number(score);
 console.log(typeof(converted));
 
-let s = "33abc";
-console.log(typeof(s));
-let converts = Number(s);
-console.log(typeof(converts));
-console.log(converts);
+// let s = "33abc";
+// console.log(typeof(s));
+// let converts = Number(s);
+// console.log(typeof(converts));
+// console.log(converts);
 
-let so = undefined;
-console.log(typeof(so));
-let convert = Number(so);
-console.log(typeof(convert));
-console.log(convert);
+// let so = undefined;
+// console.log(typeof(so)); //o/p Undefined
+// let convert = Number(so);
+// console.log(typeof(convert)); //o/p number
+// console.log(convert);  //o/p Nan 
 
 //operations
-let val = 3;
-let value = -val;
-console.log(value);
+// let val = 3;
+// let value = -val;
+// console.log(value);
 
 //string operartions
-let str1 = "djhd";
-let str2 = " fjhfdhu";
-console.log(str1+str2);
+// let str1 = "djhd";
+// let str2 = " fjhfdhu";
+// console.log(str1+str2);
 
 
 //tricky
-console.log("1"+2);
-console.log(1+"2");
-console.log("1"+2+2);
-console.log(1+2+"2");
-console.log((3+4)*5/2);
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+2);
+// console.log(1+2+"2");
+// console.log((3+4)*5/2);
 
 //different conversions
 console.log(+true); //o/p = 1
 // console.log(true-)//error
 console.log(+""); //o/p = 0
 
-let game =100;
-console.log(++game);
-console.log(game--);
-console.log(--game);
-console.log(game++);
+// let game =100;
+// console.log(++game);
+// console.log(game--);
+// console.log(--game);
+// console.log(game++);
 
 
+console.log(undefined == 0); // o/p false
+console.log(undefined < 0);  // o/p false
+console.log(undefined >= 0); // o/p false
 
+console.log(null == 0);  // o/p false
+console.log(null > 0);  // o/p false
+console.log(null >= 0); // o/p true
